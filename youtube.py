@@ -10,4 +10,4 @@ res = api.get_activities_by_channel(channel_id='UCc4Rz_T9Sb1w5rqqo9pL1Og',return
 if len(res['items']) != 0:
     print("Last video:::https://www.youtube.com/watch?v={}".format(res['items'][0]['contentDetails']['upload']['videoId']))
 else:
-    print("No video")
+    print("No video") #

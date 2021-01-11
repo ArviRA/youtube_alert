@@ -1,4 +1,4 @@
-import pyyoutube
+import pyyoutube  #run cmd as admin while instaling 'pip install --upgrade python-youtube'
 from datetime import datetime
 
 d = datetime.now()
